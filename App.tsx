@@ -4,10 +4,10 @@ import {Swiper} from './src/Swiper';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <>
       <Swiper />
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 

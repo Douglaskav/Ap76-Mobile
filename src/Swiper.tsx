@@ -39,10 +39,10 @@ export function Swiper() {
     <View style={styles.container}>
       <ScrollView
         onScroll={({ nativeEvent }) => onChangeScreen(nativeEvent)}
-        decelerationRate="fast"
-        showsHorizontalScrollIndicator={false}
+        showsHorizontalScrollIndicator={false}        
         pagingEnabled
         horizontal
+        bounces={false}
       >
         {OnboardingSlideContent.map((slide) => (
           <View style={styles.container} key={slide.id}>
@@ -68,7 +68,7 @@ export function Swiper() {
                 ))}
               </View>
               <TouchableOpacity style={styles.footerBtn} onPress={handleNextClickOnboarding}>
-                <Text style={styles.footerBtnText}>Next</Text>
+                <Text style={styles.footerBtnText}>Done</Text>
               </TouchableOpacity>
             </View>
           </View>
@@ -119,11 +119,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginRight: 30,
     marginLeft: 30,
+    marginBottom: 20
   },
 
   footerBtn: {
-    width: 160,
-    padding: 15,
+    width: 130,
+    padding: 12,
     borderRadius: 5,
     backgroundColor: "#FF902E",
   },
