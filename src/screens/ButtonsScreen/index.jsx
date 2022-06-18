@@ -12,7 +12,7 @@ import Logo from "../../assets/LogoWhite.png";
 
 import { styles } from "./styles";
 
-export const Home = ({ navigation }) => {
+export const ButtonsScreen = ({ navigation }) => {
 	return (
 		<View style={{ flex: 1 }}>
 			<ImageBackground source={BgImage} resizeMode="cover" style={{ flex: 1 }}>
@@ -37,6 +37,7 @@ export const Home = ({ navigation }) => {
 							</TouchableOpacity>
 							<TouchableOpacity
 								style={[styles.button, { backgroundColor: "#E67E22" }]}
+								onPress={() => navigation.navigate('SignUp')}
 							>
 								<Text style={styles.buttonText}>Criar Conta</Text>
 							</TouchableOpacity>

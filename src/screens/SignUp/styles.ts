@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
 	container: { flex: 1, margin: 30 },
 	goBackButton: { flex: 0.2, marginTop: 20 },
-	formContainer: { flex: 1},
+	formContainer: { flex: 1, marginBottom: 80 },
 	headerContainer: { marginBottom: 20 },
 	footerContainer: { flex: 0.4 },
 
