@@ -4,6 +4,7 @@ import { Onboarding } from "../screens/Onboarding";
 import { ButtonsScreen } from "../screens/ButtonsScreen";
 import { Login } from "../screens/Login";
 import { SignUp } from "../screens/SignUp";
+import { ConfirmCode } from "../screens/ConfirmCode";
 
 const Stack = createNativeStackNavigator();
 
@@ -11,6 +12,7 @@ export const Routes = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="ConfirmCode" component={ConfirmCode} />
         <Stack.Screen name="ButtonsScreen" component={ButtonsScreen} />
         <Stack.Screen name="Onboarding" component={Onboarding} />
         <Stack.Screen name="Login" component={Login} />

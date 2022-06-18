@@ -3,13 +3,36 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
 	container: { flex: 1, margin: 30 },
 	goBackButton: { flex: 0.2, marginTop: 20 },
-	formContainer: { flex: 1},
-	headerContainer: { marginBottom: 20 },
 
 	screenTitle: {
 		fontSize: 24,
 		fontWeight: "bold",
 		color: "#333",
+		marginBottom: 30,
+	},
+
+	formContainer: {
+		flex: 0.6
+	},
+
+	inputContainer: {
+		width: 42,
+		height: 42,
+		borderRadius: 5,
+		borderWidth: 2,
+		borderColor: "#AAAAAA",
+		margin: 5,
+	},
+
+	input: {
+		textAlign: "center",
+		fontSize: 24,
+		fontWeight: "600",
+		color: "#333",
+	},
+
+	inputRow: {
+		flexDirection: "row",
 	},
 
 	footerContainer: { flex: 0.4 },

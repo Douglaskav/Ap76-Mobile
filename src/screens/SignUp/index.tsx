@@ -42,7 +42,7 @@ export const SignUp = ({ navigation }) => {
 
 			<View style={styles.footerContainer}>
 				<TouchableOpacity style={styles.button}>
-					<Text style={styles.textButton}>Sign Up</Text>
+					<Text style={styles.textButton}>Enter</Text>
 				</TouchableOpacity>
 
 				<TouchableOpacity onPress={() => navigation.navigate("Login")}>
