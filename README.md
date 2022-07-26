@@ -4,7 +4,7 @@
 ## About the project
 Ap76 is a real estate search application by region, in which the client has direct access to the owner of the property through our interactive chat, the main idea behind the project is to ease property negotiation.
 
-![Ap76 Mobile Screens]()
+![Ap76 Mobile Screens](screens.jpg)
 
 ## Why was it created?
 This is a project from my portfolio as a developer, apart from the mobile application I also developed the server part and also the web application.
